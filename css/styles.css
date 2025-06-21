@@ -1,8 +1,11 @@
 body {
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #121212;
   color: #f0f0f0;
+  padding: 40px;
+  /* transition: background-color 0.3s ease; */
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
@@ -75,4 +78,15 @@ footer {
   padding: 20px;
   font-size: 0.9rem;
   color: #888;
+}
+/* ------------ mostrar section ----------- */
+.light-mode {
+  background-color: #f4f4f4 !important;
+  color: #121212 !important;
+}
+
+.mode-btn {
+  position: fixed;
+  top: 20px;
+  right: 20px;
 }
