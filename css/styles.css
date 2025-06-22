@@ -90,3 +90,10 @@ footer {
   top: 20px;
   right: 20px;
 }
+/* ---------img ----------------- */
+@media (max-width: 768px) {
+  .mi-imagen {
+    width: 200px;
+  }
+}
+/* ------------- parrafo --------- */
